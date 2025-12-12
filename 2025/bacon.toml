@@ -1,0 +1,9 @@
+#:schema https://dystroy.org/bacon/.bacon.schema.json
+
+default_job = "run"
+
+[jobs.run]
+command = ["cargo", "run", "--quiet"]
+need_stdout = true
+allow_warnings = true
+env.RUST_BACKTRACE = "1"

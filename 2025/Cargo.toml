@@ -1,0 +1,13 @@
+[workspace]
+resolver = "3"
+members = [
+    "day-01"
+]
+
+[workspace.package]
+description = "Advent of Code 2025"
+authors = ["SteveBinary"]
+version = "1.0.0"
+edition = "2024"
+
+[workspace.dependencies]
